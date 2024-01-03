@@ -81,3 +81,17 @@ Java : 프로그래밍 언어, 웹개발, 앱개발
 일상 언어에서 사용하는 표현을 그대로 가져다 쓸 수 있음
 2) 저급언어 (어셈블리어)
 컴퓨터가 이해하기 쉽게 작성된 언어
+배우기가 어렵고 유지보수하기 힘듦
+
+자바의 기본 구조
+1) JVM(Java Virtual Machine)
+: 운영체제에 맞춰서 java로 만든 프로그램을 실행시켜준다
+javac : .java(사람의 언어로 된 파일) 컴파일
+java  : .class(컴퓨터의 언어로 된 파일) 실행
+
+2) JRE(Java Runtime Environment)
+: JVM을 실행한다
+JVM을 실행할 때 필요한 파일 등을 가지고 있다.
+
+3) JDK(Java Development Kit)
+: JRE을 포함한다
