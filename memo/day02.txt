@@ -107,3 +107,34 @@ bit
 byte
 1byte = 8bit
 컴퓨터가 정보를 저장, 표현하기 위한 최소 단위
+
+2) 실수형 자료형
+자료형		byte		표현범위				값
+float		4		(3.4*10^-38 ~ 3.4*10^38)	3.0f, 0.1F
+double		8		(1.7*10^-308 ~ 1.7*10^308)	3.0, 1.12, ...
+
+3) 문자열 char VS 문자열 String
+문자 : 작은 따옴표('')로 감싸진 1개의 문자
+문자열 : 문자를 나열한 것, 자바에서는 큰 따옴표("")로 감싸진 0개 이상의 문자
+
+문자형 char
+
+자료형	byte	값
+char	 2	'a', '2'
+
+문자열 String
+
+기본 자료형 : int, float, char, boolean, ...
+	   Stack 영역에 데이터 자장
+참조 자료형 : String, 배열, 클래스, ...
+	   heap 영역에 데이터 저장하고 주소값을 Stack영역에 저장
+
+ex) int num = 1;
+    String str1 = "Apple";
+    String str2 = new String("Apple");
+
+			메모리
+	stack				heap
+기본자료형	      참조자료형
+  int	      String			"Apple"
+   1	      Apple의 주소
