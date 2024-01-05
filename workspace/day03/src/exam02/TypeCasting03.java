@@ -8,5 +8,16 @@ public class TypeCasting03 {
 		
 //		기본 자료형 -> String
 		String str1 = 3+"";
+		String str2 = 'a' + "";
+		System.out.println(str1);
+		System.out.println(str2);
+		
+//		String -> 기본자료형
+		int number1 = Integer.parseInt(str1);
+		
+		System.out.println(number1);
+		System.out.println(Integer.parseInt("45"));
+		System.out.println(Double.parseDouble("3.14"));
+		System.out.println(Boolean.parseBoolean("true"));
 	}
 }
