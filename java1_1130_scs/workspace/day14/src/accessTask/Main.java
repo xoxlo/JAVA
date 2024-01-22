@@ -13,18 +13,19 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		// setter 메소드를 이용해 이름과 나이 저장
+//		Scanner를 이용해서 이름과 나이 입력
 		System.out.print("이름 입력 : ");
 		String name = sc.nextLine();
-		st1.setName(name);
-	
 		System.out.print("나이 입력 : ");
 		int age = sc.nextInt();
+		
+//		setter 메소드를 이용해 이름과 나이 저장
+		st1.setName(name);
 		st1.setAge(age);
 		
 		System.out.println();
 		
-		// getter 메소드를 이용해 이름과 나이 출력
+//		getter 메소드를 이용해 이름과 나이 출력
 		System.out.println("학생 이름 : " + st1.getName());
 		System.out.println("학생 나이 : " + st1.getAge());
 		
